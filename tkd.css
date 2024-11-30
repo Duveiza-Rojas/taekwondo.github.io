@@ -1,0 +1,124 @@
+.titulo 
+{
+    font-family:'Courier New', Courier, monospace;
+    border: black;
+}
+.subtitulo
+{
+    font-family:monospace;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.teoria
+{
+    font-family:'Times New Roman', Times, serif; 
+}
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;  /* Cambiamos la tipografía */
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+    background-color: #850d0d;  /* Fondo amarillo para los títulos */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;  /* Si prefieres centrar los títulos */
+}
+/* Subtítulos */
+li{
+    font-style: italic;  /* Cursiva */
+    font-weight: bold;   /* Negrita */
+   
+    padding: 8px;
+    border-radius: 5px;
+    color: #000000;
+    text-align:left;  /* Centrado de los subtítulos */
+}
+img:hover {
+    transform: scale(1.1);  /* Aumenta ligeramente el tamaño de la imagen */
+    transition: transform 0.3s ease;  /* Transición suave */
+}
+.img_volver{
+    border:2px solid black;
+    padding: 30px;
+}
+main {
+    margin-top: 40px;
+    width: 80%;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px; /* Centrado solo de las imágenes */
+}
+
+/* Botón Volver */
+a.volver {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.volver:hover {
+    background-color: #45a049;
+}
+
+/* Secciones */
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav .menu-horizontal {
+        flex-direction: column;
+    }
+
+    nav .menu-horizontal li {
+        margin: 10px 0;
+    }
+
+    main {
+        width: 100%;
+    }
+}
+/* Establece un borde alrededor de la página */
+body {
+    margin: 20px; /* Espacio entre el borde y el contenido */
+    padding: 20px; /* Relleno interno para el borde */
+    border: 5px solid #000; /* Borde negro de 5 píxeles */
+    box-sizing: border-box; /* Asegura que el borde no se sume al tamaño total */
+    font-family: Arial, sans-serif; /* Fuente de la página */
+    line-height: 1.6; /* Interlineado */
+  }
+  
+  /* Para los párrafos y otros elementos de texto */
+  p, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.8; /* Interlineado más amplio para mejor legibilidad */
+  }
+  

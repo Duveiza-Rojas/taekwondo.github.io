@@ -1,0 +1,13 @@
+/* texto de portada */
+.titulo 
+{
+    font-family:'Courier New', Courier, monospace;
+    border: black;
+}
+.subtitulo
+{
+    font-family:monospace;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}

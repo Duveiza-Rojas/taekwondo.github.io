@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header {
+    background-color: #350101; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* header h1 {
+    font-size: 2rem;
+    margin: 0;
+} */
+
+/* Rectángulo inferior */
+.rectangulo {
+    /* background-color: #444444; */
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+   
+}
+  
+
+
+/* Cuadros inferiores */
+.cuadro{
+    height: 50vh;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #5f0909;
+    transition: background-color 0.3 ease, color 0.3 ease;
+}
+
+.cuadro1 {
+    background-color: #e5ff00; /* Gris claro */
+    border: 2px solid #000000; /* Bordes gris claro */
+    color: #fbfcfd; /* Texto oscuro */
+}
+.cuadro2 {
+    background-color: #e5ff00; /* Gris claro */
+    border: 2px solid #000000; /* Bordes gris claro */
+    color: #fbfcfd; /* Texto oscuro */
+}
+
+.cuadro:hover {
+    background-color: #000000; /* Cambio a gris más claro al pasar el mouse */
+    border-color: #000000; /* Bordes más oscuros al pasar el mouse */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.rectangulo:hover{
+    background-color: #000000; /* Cambio a gris más claro al pasar el mouse */
+    border-color: #000000; /* Bordes más oscuros al pasar el mouse */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.half-screen p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+} 
+
+/* Espaciado entre columnas */
+.row.gx-3 .col-6 {
+    padding: 0.5rem;
+}
+/* style */
+/* Fondo y estilos para el rectángulo y los cuadros */
+.rectangulo, .cuadro {
+    position: relative;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black; 
+}
+
+/* Rectángulo inferior */
+.rectangulo {
+    background-color: rgb(105, 0, 0);
+    height: 20vh;
+    background-image: url(TKD/arte.marcial.jpg); /* Cambia la ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+.rectangulo .subtitulo {
+    position: absolute; 
+    color: white;
+    font-family: 'Arial', sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.781); 
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2; 
+}
+
+/* Cuadro 1 */
+#cuadro1 {
+    background-image: url(TKD/tkd\ itf.png); 
+    background-position: center;
+    height: 250px; 
+}
+
+#cuadro1 .subtitulo {
+    position: absolute;
+    color: white;
+    font-family: 'Arial', sans-serif; /* Tipografía */
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro con opacidad */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2; /* Asegura que el texto esté sobre la imagen */
+}
+
+/* Cuadro 2 */
+#cuadro2 {
+    background-image: url(TKD/tkd\ wt.png); /* Cambia la ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+    height: 250px; /* Ajusta la altura según lo que necesites */
+}
+
+#cuadro2 .subtitulo {
+    position: absolute;
+    color: white;
+    font-family: 'Arial', sans-serif; /* Tipografía */
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro con opacidad */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2; /* Asegura que el texto esté sobre la imagen */
+}
+
+/* Efectos hover */
+.rectangulo:hover, .cuadro:hover {
+    opacity: 0.9; /* Efecto de opacidad */
+    transform: scale(1.05); /* Efecto de escala para un pequeño zoom */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+
+#cuadro1:hover, #cuadro2:hover, .rectangulo:hover {
+    border: 2px solid rgb(0, 0, 0); 
